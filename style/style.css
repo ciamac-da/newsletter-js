@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.headX {
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+}
+.x {
+    font-weight: bolder;
+}
+
+form {
+    padding: 10px;
+}
+    
+    .container {
+        background-color: orange;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 100px;
+    }
+  
+
+.divBtn {
+    text-align-last: center;
+}
+
+    @media (max-width: 375px) {
+        .container {
+        width: 80%;
+        }
+      }

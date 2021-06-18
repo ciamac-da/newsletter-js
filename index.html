@@ -3,20 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
-    <script src="./js/index.js"></script>
+    <script defer src="./js/index.js"></script>
     <title>Newsletter</title>
 </head>
 <body>
-    <div class="container alert-success">
-        <form class="w-50">
+    <div class="container">
+        <form>
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <div class="headX">
+                    <label for="exampleInputEmail1" class="form-label">To stay Up-To-Date with important releases, Subscribe!</label>
+                    <span class="x">X</span>
+                </div>
+                <input 
+                type="email" 
+                placeholder="youremail@example.com"
+                class="form-control" 
+                id="exampleInputEmail1" 
+                aria-describedby="emailHelp"
+                >
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="divBtn">
+                <button type="submit" class="btn btn-danger justify-content-center">Submit</button>
+            </div>
         </form>
     </div>
 </body>
